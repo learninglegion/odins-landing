@@ -1,19 +1,31 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
 }
 
-header {
+.hero {
     background-color: #1f2937;
+    height: 216px;
 }
 
-info {
-    background-color: #3882f6;
+.info {
+    background-color: #FFF;
+    height: 216px;
 }
 
-quote {
+.quote {
+    background-color: #e5e7eb;
+    height: 216px;
+}
+
+.calltoaction {
+    background-color: #FFF;
+    height: 216px;
+}
+
+.footer {
     background-color: #1f2937;
-}
-
-footer {
-    background-color: #1f2937;
+    height: 72px;
 }
