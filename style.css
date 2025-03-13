@@ -12,6 +12,11 @@ body {
     padding-right: 100px;
 }
 
+/* Size the background bars */
+.hero, .info, .quote, .calltoaction {
+    height: 500px;
+}
+
 a {
     text-decoration: none;
     font-size: 18px;
@@ -20,7 +25,6 @@ a {
 
 .hero {
     background-color: #1f2937;
-    height: 216px;
     padding-top: 18px;
 }
 
@@ -40,6 +44,39 @@ a {
     gap: 16px;
 }
 
+.sub-header {
+    display: flex;
+    border: 2px lime solid;
+    padding: 32px 0px;
+}
+
+.hero-left {
+    border: 2px yellow solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-left-head {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-left-mid {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-right {
+    border: 2px red solid;
+    height: 200px;
+    width: 400px;
+    background-color: #c9cbce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,17 +85,14 @@ ul {
 
 .info {
     background-color: #FFF;
-    height: 216px;
 }
 
 .quote {
     background-color: #e5e7eb;
-    height: 216px;
 }
 
 .calltoaction {
     background-color: #FFF;
-    height: 216px;
 }
 
 .footer {
