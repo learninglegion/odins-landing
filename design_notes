@@ -11,10 +11,19 @@ Maybe even make different layouts per screen size if feeling saucy
 
 Header has 2 divs, header-logo and header-links
     Prep header-logo for image?
+
 Hero has 2 divs, hero-signup and hero-image
     Left hero all html or more divs (in column)?
     Right hero image - static size
+
 Info has 2 divs, info-title and info-content
-    info-title is text
-    info-content is 4 images and text - refer to exercise for layouts
+    info-title is text - centered
+    info-content is 4 images and text - refer to exercise for layouts. Rounded borders, space-around? centered
+
 Quote is 2 divs, quote-text and quote-cred
+    Make a relative position for quote-cred attached to
+    lower right of quote-text. Quote-text is centered.
+
+C2A is a div within a div, C2A-highlight (centered). Then 2 divs within that, C2A-text and C2A-signup-button
+
+Footer is single div, has copyright text and is centered.
