@@ -27,3 +27,7 @@ Quote is 2 divs, quote-text and quote-cred
 C2A is a div within a div, C2A-highlight (centered). Then 2 divs within that, C2A-text and C2A-signup-button
 
 Footer is single div, has copyright text and is centered.
+
+After it's all done, come back and personalize it!
+    -Use SD Comfy UI for my images
+    -Develop my own LLM for text?

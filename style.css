@@ -7,22 +7,18 @@ body {
 }
 
 /* Narrow the content */
-.hero, .info, .quote, .calltoaction, .footer {
-    padding-left: 250px;
-    padding-right: 250px;
+.header, .hero, .info, .quote, .calltoaction, .footer {
+    padding-left: 275px;
+    padding-right: 275px;
 }
 
 /* Size the background bars */
 .hero, .info, .quote, .calltoaction {
-    height: 650px;
+    height: 600px;
 }
-
-.header {
-    background-color: #1f2937;
-    padding-top: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header, .footer {
+    /* Size these Later? */
+    height: 50px;
 }
 
 a {
@@ -31,12 +27,26 @@ a {
     color: #E5E7EB;
 }
 
-.hero {
-    background-color: #1f2937;
-    padding-top: 18px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+button {
+    cursor: pointer;
+    padding: 8px 50px;
+    border-radius: 8px;
 }
 
-
+.header {
+    /* border: 2px solid lightblue; */
+    background-color: #1f2937;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header-logo {
     font-size: 24px;
@@ -46,37 +56,47 @@ a {
 
 .header-links {
     display: flex;
-    gap: 16px;
+    gap: 22px;
 }
 
-.sub-header {
+.hero {
+    /* border: 2px solid lightcoral; */
+    background-color: #1f2937;
+    /* padding-top: 18px;
+    padding: 32px 0px; */
     display: flex;
-    border: 2px lime solid;
-    padding: 32px 0px;
     align-items: center;
+    justify-content: center;
 }
 
-.hero-left {
-    border: 2px yellow solid;
-    display: flex;
-    flex-direction: column;
+.hero-signup {
+    /* border: 2px yellow solid; */
+    height: 250px;
+    /* display: flex;
+    flex-direction: column; */
     flex: 1;
 }
 
-.hero-left-head {
+.hero-signup-head {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.hero-left-mid {
+.hero-signup-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero-right {
-    border: 2px red solid;
-    height: 200px;
+.hero-signup-button {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+}
+
+.hero-image {
+    /* border: 2px red solid; */
+    height: 250px;
     width: 400px;
     color: #E5E7EB;
     background-color: #6E747C;
@@ -85,12 +105,6 @@ a {
     align-items: center;
     flex: 1;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 
 .info {
     background-color: #FFF;
