@@ -1,0 +1,20 @@
+Body sections:
+Header, Hero, Information, Quotes, CalltoAction, Footer
+
+Header and Footer are same size and colors
+Hero, Info, Quotes, C2A are same size
+
+All sections self-contained
+All sections have uniform left/right padding to narrow the content
+Make all sections wrap to be responsive?
+Maybe even make different layouts per screen size if feeling saucy
+
+Header has 2 divs, header-logo and header-links
+    Prep header-logo for image?
+Hero has 2 divs, hero-signup and hero-image
+    Left hero all html or more divs (in column)?
+    Right hero image - static size
+Info has 2 divs, info-title and info-content
+    info-title is text
+    info-content is 4 images and text - refer to exercise for layouts
+Quote is 2 divs, quote-text and quote-cred

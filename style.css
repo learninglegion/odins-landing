@@ -8,13 +8,13 @@ body {
 
 /* Narrow the content */
 .hero, .info, .quote, .calltoaction, .footer {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 /* Size the background bars */
 .hero, .info, .quote, .calltoaction {
-    height: 500px;
+    height: 650px;
 }
 
 a {
@@ -31,6 +31,8 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
 }
 
 .logo {
@@ -48,12 +50,14 @@ a {
     display: flex;
     border: 2px lime solid;
     padding: 32px 0px;
+    align-items: center;
 }
 
 .hero-left {
     border: 2px yellow solid;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .hero-left-head {
@@ -71,10 +75,12 @@ a {
     border: 2px red solid;
     height: 200px;
     width: 400px;
-    background-color: #c9cbce;
+    color: #E5E7EB;
+    background-color: #6E747C;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 ul {
