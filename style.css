@@ -110,6 +110,43 @@ button {
     background-color: #FFF;
 }
 
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container-set {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    border:#3882f6 solid 6px;
+    border-radius: 24px;
+    height: 200px;
+    width: 200px;
+}
+
+.info-text {
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 .quote {
     background-color: #e5e7eb;
 }
