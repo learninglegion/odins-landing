@@ -96,14 +96,15 @@ button {
 
 .hero-image {
     /* border: 2px red solid; */
-    height: 250px;
+    height: 256px;
     width: 400px;
     color: #E5E7EB;
     background-color: #6E747C;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .info {
@@ -126,6 +127,8 @@ button {
     align-items: center;
 }
 
+/* This needs to be refactored later. Text lengths alter
+box location. */
 .info-container {
     width: 200px;
     display: flex;
@@ -137,8 +140,8 @@ button {
 .info-img {
     border:#3882f6 solid 6px;
     border-radius: 24px;
-    height: 200px;
-    width: 200px;
+    height: 208px;
+    width: 208px;
 }
 
 .info-text {
@@ -149,6 +152,24 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_main {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+    padding-bottom: 8px;
+}
+
+.quote_sayer {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: end;
 }
 
 .calltoaction {
