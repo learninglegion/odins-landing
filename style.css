@@ -174,7 +174,52 @@ box location. */
 
 .calltoaction {
     background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.calltoaction_banner {
+    background-color: #3882f6;
+    color: #FFF;
+    border-radius: 12px;
+    height: 200px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.calltoaction_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.calltoaction_head {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.calltoaction_text {
+    font-size: 22px;
+}
+
+.calltoaction_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction_button {
+    background: #3882f6;
+    border: 2px solid #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
 
 .footer {
     background-color: #1f2937;
